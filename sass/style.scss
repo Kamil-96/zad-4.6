@@ -1,0 +1,54 @@
+/* Variables */ 
+
+$font-header: 'Roboto', sans-serif;
+$font-text: 'Open Sans', sans-serif;
+
+$color-one: #fff;
+$color-two: #000000;
+$color-three: #6b6b6b;
+$color-four: #ADA7A7;
+$color-five: #FFD700;
+
+/* GLobal */
+
+a {
+    text-decoration: none;    
+}
+
+/* Navigation */ 
+
+.navigation {
+    width: 100%;
+    
+    .container {        
+        display: flex;
+        flex-direction: row;
+        
+        .navigation-logo {
+            margin-top: 37px;    
+            a {
+                margin-left: 38px;
+                font-size: 28px;    
+            }
+        }
+        .navigation-list {
+            justify-content: flex-end; 
+            margin: 32px 0 0 26px;   
+            font-family: $font-header;
+            color: $color-one;  
+            
+            ul {
+                list-style-type: none;
+
+                li {
+                    display: inline-block;
+                    margin-right: 36px;
+
+                    a {
+                        
+                    }
+                }
+            }
+        }
+    }
+}
