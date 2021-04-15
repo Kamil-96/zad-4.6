@@ -25,9 +25,9 @@ section {
 }
 .section-title {
     font-size: 42px;
-            font-family: $font-header;
-            letter-spacing: 2px;
-            margin-bottom: 0;
+    font-family: $font-header;
+    letter-spacing: 2px;
+    margin-bottom: 0;
 }
 .section-subtitle {
     margin-top: 8px;
@@ -224,7 +224,6 @@ section {
     margin: 0 0 35px 0;
     padding: 48px 0;
     
-
     .container {
         position: absolute;
         top: 50%;
@@ -240,7 +239,6 @@ section {
             font-family: $font-text;
             font-size: 13px;
         }
-        
         ul {
 
             li {
@@ -274,8 +272,6 @@ section {
     }
 }
 
-
-
 /* Media */ 
 
 @media (max-width: 767px) {
@@ -284,7 +280,7 @@ section {
         .navigation {    
         
             .navigation-list {
-                margin: 4px 0 0 26px;
+                transform: translateY(-35px);
             }
         }
         .splash-inner {
@@ -296,9 +292,13 @@ section {
     }
     .services {
 
-        p {
-            padding: 0;
+        .col-md-4:first-of-type {
+            transform: translateX(-23px);
         }
+        .col-md-4:last-of-type {
+            transform: translateX(22px);
+        }
+        
     }
     .portfolio {
 
