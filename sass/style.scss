@@ -6,7 +6,7 @@ $font-text: 'Open Sans', sans-serif;
 $color-one: #fff;
 $color-two: #000000;
 $color-three: #6b6b6b;
-$color-four: #ADA7A7;
+$color-four: #f0f0f0;
 $color-five: #FFD700;
 
 /* GLobal */
@@ -135,7 +135,7 @@ section {
 /* Services */
 
 .services {
-    
+    margin-bottom: 113px;
     .row {
         margin-top: 85px;
             
@@ -175,3 +175,44 @@ section {
         }
     }    
 }
+
+/* Portfolio */ 
+
+.portfolio {
+    background: $color-four;    
+    
+    .container {
+
+        .section-title {
+            margin-top: 27px;
+        }
+        .row {
+            margin-top: 81px;
+
+            img {
+                height: 326px;
+                width: 315px;
+                
+                object-fit: cover;
+            }
+            h3 {
+                margin: 25px 20px 0 0;
+                font-family: $font-header;
+                font-size: 18px;
+            }
+            p {
+                text-align: center;
+                margin: 0 20px 0 0;
+                font-family: $font-text;
+                color: $color-three;
+                font-style: italic;
+                font-weight: bold;
+            }
+            &:last-of-type {
+                margin-top: 82px;
+            }
+        }
+    }
+}
+
+// @media querry !!!
