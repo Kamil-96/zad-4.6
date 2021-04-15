@@ -179,7 +179,8 @@ section {
 /* Portfolio */ 
 
 .portfolio {
-    background: $color-four;    
+    background: $color-four;   
+    padding-bottom: 161px; 
     
     .container {
 
@@ -214,5 +215,65 @@ section {
         }
     }
 }
+
+/* Footer */ 
+
+.page-footer {
+    position: relative; 
+    height: 60px;
+    margin: 0 0 35px 0;
+    padding: 48px 0;
+    
+
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+
+        p {
+            margin: 59px 84px 0 45px;
+            letter-spacing: 1.5px;
+            font-weight: bold;
+            color: $color-three;
+            font-family: $font-text;
+            font-size: 13px;
+        }
+        
+        ul {
+
+            li {
+                font-size: 0;
+                display: inline-block;
+
+                i {
+                    font-size: 20px;
+                    background: #000000;
+                    width: 43px;
+                    height: 43px;
+                    color: #fff;
+                    line-height: 43px;
+                    border-radius: 50%;
+                    margin: 31px 0 0 7px;
+                }
+                .fa-twitter {
+                    padding-left: 10px;
+                }
+                .fa-facebook-f {
+                    padding-left: 16px;
+                }
+                .fa-pinterest-p {
+                    padding-left: 14px;
+                }
+                .fa-instagram {
+                    padding-left: 13px;
+                }
+            }
+        }
+    }
+}
+
+
 
 // @media querry !!!
